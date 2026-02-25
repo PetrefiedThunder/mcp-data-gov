@@ -1,25 +1,31 @@
 # mcp-data-gov
 
-MCP server for [data.gov](https://data.gov) — meta-search across 250,000+ federal datasets. No API key required.
+Search 250,000+ federal datasets from data.gov across all government agencies.
+
+> **Free API** — No API key required.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `search_datasets` | Search federal datasets by keyword, org, format |
-| `get_dataset` | Get full metadata for a specific dataset |
-| `list_organizations` | List federal agencies publishing data |
-| `list_tags` | Browse popular dataset topics/tags |
-| `get_resource` | Get download URL for a specific file/resource |
+| `search_datasets` | Search across 250K+ federal datasets on data.gov by keyword. |
+| `get_dataset` | Get detailed metadata for a specific dataset by ID. |
+| `list_organizations` | List federal organizations/agencies that publish data on data.gov. |
+| `list_tags` | List popular tags/topics used across datasets. |
+| `get_resource` | Get metadata and download URL for a specific resource/file within a dataset. |
 
-## Install
+## Installation
 
 ```bash
+git clone https://github.com/PetrefiedThunder/mcp-data-gov.git
+cd mcp-data-gov
 npm install
 npm run build
 ```
 
 ## Usage with Claude Desktop
+
+Add to your `claude_desktop_config.json`:
 
 ```json
 {
@@ -32,7 +38,11 @@ npm run build
 }
 ```
 
-## No API Key Required
+## Usage with npx
+
+```bash
+npx mcp-data-gov
+```
 
 ## License
 
