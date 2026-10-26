@@ -1,7 +1,7 @@
 {
   "name": "mcp-data-gov",
   "version": "1.0.0",
-  "description": "MCP server for data.gov \u2014 search 250K+ federal datasets",
+  "description": "MCP server for data.gov — search 250K+ federal datasets",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -16,7 +16,7 @@
     "federal"
   ],
   "author": "",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "type": "module",
   "engines": {
     "node": ">=20"
