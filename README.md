@@ -46,4 +46,4 @@ npx mcp-data-gov
 
 ## License
 
-MIT
+Apache-2.0
